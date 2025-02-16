@@ -1,18 +1,9 @@
-<script setup lang="ts">
-  interface user {
-    name: string;
-    age: Number;
-  }
-  const x: user = {
-    name: "ff",
-    age: 4,
-  };
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <h1 class="text-7xl">Home</h1>
+    <h1 class="text-2xl font-alex font-bol">Home</h1>
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style></style>
