@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Alexandria";
+  src: url("~/assets/fonts/Alexandria-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("~/assets/fonts/Alexandria-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("~/assets/fonts/Alexandria-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("~/assets/fonts/Alexandria-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("~/assets/fonts/Alexandria-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("~/assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("~/assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("~/assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("~/assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("~/assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+body {
+  @apply bg-background;
+}
+
+.container {
+  margin: 0 auto;
+  @media (min-width: 1281px) {
+    width: 1140px !important;
+  }
+
+  @media (max-width: 1280px) {
+    width: 1140px !important;
+  }
+
+  @media (max-width: 1024px) {
+    width: 736px !important;
+    // padding: 0px 0px;
+  }
+
+  @media (max-width: 768px) {
+    width: 360px !important;
+    padding: 16px;
+  }
+
+  @media (max-width: 640px) {
+    width: 400px !important;
+  }
+}

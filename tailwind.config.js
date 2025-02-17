@@ -19,7 +19,9 @@ module.exports = {
     extend: {
       fontFamily: {
         alex: ["Alexandria", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
+
       colors: {
         blue: "#4be1f4",
         pink: "#f87388",
@@ -34,7 +36,8 @@ module.exports = {
         },
         orange: "#ff8135",
         grey: "#3a3a3a",
-        bg: "#10151a",
+        zinc: "#243241",
+        background: "#10151a",
       },
       gradientColorStops: {
         primary: "linear-gradient(to bottom, #2210E9 0%, #DE8686 100%)",
